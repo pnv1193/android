@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:weightSum="100"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <ScrollView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="20"
+            >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSN"
+                    android:textSize="20dp"
+                    android:id="@+id/tvSSN"
+                    android:layout_gravity="center"/>
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/etSSN"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="20dp"
+                    android:id="@+id/tvName"
+                    android:layout_gravity="center"/>
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etName"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="20dp"
+                    android:id="@+id/tvAddress"
+                    android:layout_gravity="center"/>
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/etAddress"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item purchased"
+                    android:textSize="20dp"
+                    android:id="@+id/tvItem"
+                    android:layout_gravity="center"/>
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etItem"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cost"
+                    android:textSize="20dp"
+                    android:id="@+id/tvCost"
+                    android:layout_gravity="center"/>
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etCost"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:id="@+id/bAdd"
+                android:layout_gravity="center"/>
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/bView"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="6"
+        >
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+
+
+        <TableRow>
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="ID"
+                    android:padding="10px"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="SSN"
+                    android:padding="10px"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="Name"
+                    android:padding="10px"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="Address"
+                    android:padding="10px"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="Item"
+                    android:textSize="18dp"
+                    android:padding="10px"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:text="Cost"
+                    android:padding="10px"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Data from DB"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:id="@+id/tvInfo"
+            />
+</LinearLayout>
